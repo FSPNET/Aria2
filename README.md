@@ -20,11 +20,11 @@ FSP Network Gen2 Server Infrastructure - Aria2
 
 ```sh
 docker run -d \
-    -- name aira2 \
+    -- name aria2 \
     -v /DOWNLOAD_DIR:/data \
     -p 6800:6800 \
     -p 6881:6881 \
     -p 6882:6882/udp \
     -e SECRET=YOUR_SECRET \
-    fspnetwork/aira2
+    fspnetwork/aria2
 ```
